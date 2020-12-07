@@ -19,7 +19,7 @@ public class BasicActionsPartTwo {
         LOGGER.info("Application starting up");
         BasicActionsPartTwo app = new BasicActionsPartTwo();
         app.init();
-        //LOGGER.info("Application gracefully exiting...");
+        LOGGER.info("Application gracefully exiting...");
     }
 
     private void init() throws Exception {
